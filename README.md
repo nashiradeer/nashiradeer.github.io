@@ -4,7 +4,7 @@ Source code from my website for GitHub Pages.
 
 ## Building
 
-*There are no methods of building available for now.*
+_There are no methods of building available for now._
 
 ## Credits
 
