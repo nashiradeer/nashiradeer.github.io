@@ -13,9 +13,7 @@
 </script>
 
 <div class={badgeClass}>
-	{#if image && name}
-		<img width="20" height="20" src={image} alt="Badge" />
-	{:else if image}
+	{#if image}
 		<img width="20" height="20" src={image} alt="Badge" />
 	{/if}
 	{#if name}
