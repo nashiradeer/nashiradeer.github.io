@@ -71,6 +71,10 @@
 	}
 
 	@media (max-width: 1100px) {
+		div {
+			height: auto;
+		}
+
 		p {
 			max-width: 100%;
 			margin: 0 60px;
@@ -79,10 +83,6 @@
 	}
 
 	@media (max-width: 600px) {
-		div {
-			height: auto;
-		}
-
 		p {
 			font-size: 1.2rem;
 			margin: 0 10px 20px;
