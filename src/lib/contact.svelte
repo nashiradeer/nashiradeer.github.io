@@ -1,7 +1,3 @@
-<script lang="ts">
-	import ContentBox from './content_box.svelte';
-</script>
-
 <ul>
 	<li>
 		<a href="mailto:nashiradeer@gmail.com">
@@ -50,7 +46,7 @@
 		margin: 0;
 		margin-right: 120px;
 		list-style: none;
-		width: 310px;
+		width: 300px;
 	}
 
 	li {

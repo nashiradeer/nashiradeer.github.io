@@ -1,5 +1,4 @@
 <script>
-	import ContentBox from './content_box.svelte';
 	import { PROJECTS } from './projects';
 	import ShowcaseItem from './showcase_item.svelte';
 </script>
