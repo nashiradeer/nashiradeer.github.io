@@ -24,7 +24,7 @@
 <style>
 	div {
 		display: inline;
-		background-color: #000;
+		background-color: #6b113a;
 		color: #fff;
 		font-size: 1rem;
 		padding: 5px 6px;
