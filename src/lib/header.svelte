@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<img src="{assets}/protogen.svg" alt="Nashira Deer" />
+	<img width="192" height="192" src="{assets}/protogen.svg" alt="Nashira Deer" />
 	<h1>Nashira Deer // Kitsu'ne</h1>
 </header>
 
