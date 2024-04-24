@@ -4,13 +4,11 @@
 	import ShowcaseItem from './showcase_item.svelte';
 </script>
 
-<ContentBox title="Projects" color="#fb0072" big_content={true}>
-	<div>
-		{#each PROJECTS as project}
-			<ShowcaseItem {...project} />
-		{/each}
-	</div>
-</ContentBox>
+<div>
+	{#each PROJECTS as project}
+		<ShowcaseItem {...project} />
+	{/each}
+</div>
 
 <style>
 	div {
