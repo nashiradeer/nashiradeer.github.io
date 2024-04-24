@@ -57,10 +57,6 @@
 </div>
 
 <style>
-	.showcase-item {
-		margin: 10px;
-	}
-
 	input {
 		display: none;
 	}
@@ -69,6 +65,22 @@
 		background-color: #000;
 		padding: 20px;
 		border-radius: 10px;
+	}
+
+	@keyframes blinking {
+		0% {
+			background-color: #000;
+		}
+
+		100% {
+			background-color: #4b0a28;
+		}
+	}
+
+	.showcase-content:hover {
+		animation: blinking 1s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
 	}
 
 	label {
@@ -134,5 +146,9 @@
 		color: #fff;
 		text-decoration: none;
 		border-radius: 5px;
+	}
+
+	.description a:hover {
+		background-color: #3a081f;
 	}
 </style>
