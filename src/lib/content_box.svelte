@@ -1,9 +1,10 @@
 <script lang="ts">
 	export let title: string;
 	export let color: string = 'black';
+	export let big_content: boolean = false;
 </script>
 
-<section style="background-color: {color};">
+<section style="background-color: {color};" class={big_content ? 'big-content' : 'small-content'}>
 	<h2>{title}</h2>
 	<div>
 		<slot />
@@ -11,38 +12,36 @@
 </section>
 
 <style>
-	section {
-		padding: 40px 30px;
-		padding-right: 0;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+	.big-content {
+		padding: 50px 0;
+		flex-direction: column;
 		align-items: center;
 	}
 
-	h2 {
+	.big-content h2 {
+		text-align: center;
 		font-size: 3.5rem;
 		margin: 0;
-		margin-left: 20px;
-		color: #fff;
-		min-width: 320px;
+		margin-bottom: 50px;
 	}
 
 	@media (max-width: 1024px) {
-		section {
-			flex-direction: column;
-			align-items: center;
+		.big-content {
+			padding: 30px 0;
 		}
 
-		h2 {
-			margin-left: 0;
-			text-align: center;
+		.big-content h2 {
+			margin-bottom: 30px;
 		}
 	}
 
-	@media (max-width: 800px) {
-		section {
-			padding: 40px 0;
+	@media (max-width: 768px) {
+		.big-content {
+			padding: 10px 0;
+		}
+
+		.big-content h2 {
+			margin-bottom: 10px;
 		}
 	}
 </style>
