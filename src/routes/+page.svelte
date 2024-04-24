@@ -4,6 +4,7 @@
 	import Fursonas from '$lib/fursonas.svelte';
 	import Projects from '$lib/projects.svelte';
 	import Footer from '$lib/footer.svelte';
+	import Showcase from '$lib/showcase.svelte';
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
 <Header />
 <Contact />
 <Fursonas />
-<Projects />
+<Showcase />
 <Footer />
 
 <style>
