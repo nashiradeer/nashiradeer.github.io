@@ -4,7 +4,8 @@
 	import Fursonas from '$lib/fursona.svelte';
 	import Footer from '$lib/footer.svelte';
 	import Showcase from '$lib/showcase.svelte';
-	import ContentBox from '$lib/content_box.svelte';
+	import SmallContent from '$lib/small_content.svelte';
+	import BigContent from '$lib/big_content.svelte';
 </script>
 
 <svelte:head>
@@ -25,24 +26,27 @@
 </svelte:head>
 
 <Header />
-<ContentBox title="Contact" color="#0059ff">
+<SmallContent title="Contact" color="#0059ff">
 	<Contact />
-</ContentBox>
-<ContentBox title="About Me">
-	<p>
-		Hello! I'm Nashira Deer, a furry artist and web developer. I'm a Protogen, a species created by
-		Malice-Risu. I'm a non-binary person who uses they/them pronouns. I'm a hobbyist artist who
-		enjoys drawing furries and other anthropomorphic characters. I'm also a web developer who enjoys
-		creating websites and web applications. I'm currently learning SvelteKit, a framework for
-		building web applications with Svelte.
-	</p>
-</ContentBox>
-<ContentBox title="Fursonas" color="#8400ff">
+</SmallContent>
+<SmallContent title="About Me">
+	<div>
+		<p>
+			Hello, I'm Deyvid da Silva Costa (Brazilian, 19y, she/her), or Kitsu'ne on the internet. You
+			can find me using the name of Nashira Deer, but it's a "legacy" name. I prefer Kitsu'ne to my
+			real name or Nashira. I'm a software developer who loves to code back-ends, games, or
+			system-related things, using Rust or C# with Unity in these projects, but I also code
+			front-end in TypeScript and mobile/desktop in Flutter. My favorite programming languages are
+			Rust, Elixir, Go, C, C#, and TypeScript.
+		</p>
+	</div>
+</SmallContent>
+<SmallContent title="Fursonas" color="#8400ff">
 	<Fursonas />
-</ContentBox>
-<ContentBox title="Projects" color="#fb0072" big_content={true}>
+</SmallContent>
+<BigContent title="Projects" color="#fb0072">
 	<Showcase />
-</ContentBox>
+</BigContent>
 <Footer />
 
 <style>
@@ -51,5 +55,43 @@
 		font-family: 'Secular One', sans-serif;
 		background-color: #000;
 		color: #fff;
+	}
+
+	div {
+		height: 50vh;
+		display: flex;
+		align-items: center;
+	}
+
+	p {
+		font-size: 1.4rem;
+		max-width: 70%;
+		vertical-align: middle;
+		margin: 0 40px 0 auto;
+	}
+
+	@media (max-width: 1100px) {
+		p {
+			max-width: 100%;
+			margin: 0 60px;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 600px) {
+		div {
+			height: auto;
+		}
+
+		p {
+			font-size: 1.2rem;
+			margin: 0 10px 20px;
+		}
+	}
+
+	@media (max-width: 400px) {
+		p {
+			font-size: 1rem;
+		}
 	}
 </style>
