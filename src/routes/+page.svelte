@@ -19,8 +19,7 @@
 		content="My personal website containing contact information, about me, fursonas, and projects."
 	/>
 	<meta property="og:url" content="https://www.nashiradeer.com/" />
-	<meta property="og:image" content="https://www.nashiradeer.com/protogen.svg" />
-	<meta property="og:image:type" content="image/svg+xml" />
+	<meta property="og:image" content="https://www.nashiradeer.com/protogen.png" />
 	<meta property="og:image:alt" content="Sinabar, a furry of the Protogen specie." />
 	<meta name="theme-color" content="#fb0072" />
 </svelte:head>
