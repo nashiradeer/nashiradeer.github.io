@@ -47,19 +47,6 @@ export const PROJECTS: IProject[] = [
 		badges: [RUST]
 	},
 	{
-		id: 'hellion',
-		title: 'Hellion',
-		description: 'A music Discord bot.',
-		badges: [TYPESCRIPT]
-	},
-	{
-		id: 'lavalink-openj9',
-		title: 'Lavalink OpenJ9',
-		description: 'A Lavalink server with OpenJ9 JVM.',
-		link: 'https://github.com/nashiradeer/lavalink-openj9',
-		badges: [DOCKER]
-	},
-	{
 		id: 'hydrogen-i18n',
 		title: 'Hydrogen: I18n',
 		description: 'Server-side internationalization for bots and services.',
@@ -93,27 +80,6 @@ export const PROJECTS: IProject[] = [
 		badges: [UNITY, CSHARP]
 	},
 	{
-		id: 'skyer-builder',
-		title: 'Skyer Builder',
-		description: 'A tool for building Unity games to multiple platforms at once.',
-		link: 'https://github.com/nashiradeer/skyer-builder',
-		badges: [UNITY, CSHARP]
-	},
-	{
-		id: 'deerlin-for-jekyll',
-		title: 'Deerlin for Jekyll',
-		description: 'A Jekyll theme for personal websites.',
-		link: 'https://github.com/nashiradeer/deerlin-for-jekyll',
-		badges: [JEKYLL, HTML]
-	},
-	{
-		id: 'brasil-cov',
-		title: 'Brasil CoV',
-		description: 'A COVID-19 data visualization tool for Brazil.',
-		link: 'https://github.com/nashiradeer/brasil-cov',
-		badges: [QT, CPP]
-	},
-	{
 		id: 'the-legend-of-baiana',
 		title: 'The Legend of Baiana',
 		description:
@@ -129,6 +95,40 @@ export const PROJECTS: IProject[] = [
 		link: 'https://gamejolt.com/games/loptama/650358',
 		image: `${assets}/projects/loptama.webp`,
 		badges: [UNITY, CSHARP]
+	},
+	{
+		id: 'skyer-builder',
+		title: 'Skyer Builder',
+		description: 'A tool for building Unity games to multiple platforms at once.',
+		link: 'https://github.com/nashiradeer/skyer-builder',
+		badges: [UNITY, CSHARP]
+	},
+	{
+		id: 'hellion',
+		title: 'Hellion',
+		description: 'A music Discord bot.',
+		badges: [TYPESCRIPT]
+	},
+	{
+		id: 'lavalink-openj9',
+		title: 'Lavalink OpenJ9',
+		description: 'A Lavalink server with OpenJ9 JVM.',
+		link: 'https://github.com/nashiradeer/lavalink-openj9',
+		badges: [DOCKER]
+	},
+	{
+		id: 'deerlin-for-jekyll',
+		title: 'Deerlin for Jekyll',
+		description: 'A Jekyll theme for personal websites.',
+		link: 'https://github.com/nashiradeer/deerlin-for-jekyll',
+		badges: [JEKYLL, HTML]
+	},
+	{
+		id: 'brasil-cov',
+		title: 'Brasil CoV',
+		description: 'A COVID-19 data visualization tool for Brazil.',
+		link: 'https://github.com/nashiradeer/brasil-cov',
+		badges: [QT, CPP]
 	},
 	{
 		id: 'sexy-name-calculator',
