@@ -2,7 +2,6 @@
 	import Header from '$lib/header.svelte';
 	import Contact from '$lib/contact.svelte';
 	import Fursonas from '$lib/fursonas.svelte';
-	import Projects from '$lib/projects.svelte';
 	import Footer from '$lib/footer.svelte';
 	import Showcase from '$lib/showcase.svelte';
 </script>
