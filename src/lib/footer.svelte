@@ -22,4 +22,16 @@
 		font-size: 1.3rem;
 		margin: 0.8rem;
 	}
+
+	@media (max-width: 950px) {
+		p {
+			font-size: 1rem;
+		}
+	}
+
+	@media (max-width: 670px) {
+		p {
+			font-size: 0.8rem;
+		}
+	}
 </style>
