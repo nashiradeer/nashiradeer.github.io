@@ -18,6 +18,7 @@
 
 <style>
 	.fursona {
+		margin: 20px 0;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: end;
@@ -30,5 +31,17 @@
 		display: block;
 		text-align: center;
 		width: 310px;
+	}
+
+	@media (max-width: 1100px) {
+		.fursona {
+			margin: 0;
+		}
+	}
+
+	@media (max-width: 600px) {
+		span {
+			font-size: 1.5rem;
+		}
 	}
 </style>
