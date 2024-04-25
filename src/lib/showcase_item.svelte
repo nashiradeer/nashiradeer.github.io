@@ -81,6 +81,7 @@
 		animation: blinking 1s;
 		animation-direction: alternate;
 		animation-iteration-count: infinite;
+		cursor: pointer;
 	}
 
 	label {
@@ -150,6 +151,5 @@
 
 	.description a:hover {
 		background-color: #3a081f;
-		cursor: pointer;
 	}
 </style>
