@@ -4,7 +4,7 @@
 			href="https://github.com/nashiradeer/nashiradeer.github.io">GitHub</a
 		>.
 	</p>
-	<p>The assets found in this project can have restrictive permissions.</p>
+	<p>The assets found in this project may have restrictive permissions.</p>
 	<p>© Nashira Deer 2024. All Rights Reserved.</p>
 </footer>
 
