@@ -150,5 +150,6 @@
 
 	.description a:hover {
 		background-color: #3a081f;
+		cursor: pointer;
 	}
 </style>
