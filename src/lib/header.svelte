@@ -9,7 +9,7 @@
 
 <style>
 	header {
-		padding: 2% 0;
+		padding: 30px 0;
 		display: flex;
 		align-items: center;
 	}
@@ -19,37 +19,90 @@
 		font-size: 5rem;
 		font-weight: bolder;
 		margin: 0;
-		margin-left: 2%;
+		margin-left: 20px;
 	}
 
-	header img {
-		width: 10%;
-		margin-left: 3%;
+	img {
+		margin-left: 80px;
 	}
 
-	@media (max-width: 1140px) {
+	@media (max-width: 1300px) {
+		h1 {
+			font-size: 4rem;
+			margin-left: 10px;
+		}
+
+		img {
+			margin-left: 60px;
+			width: 128px;
+			height: 127px;
+		}
+	}
+
+	@media (max-width: 1100px) {
 		header {
-			padding: 0.5% 0;
+			padding: 10px 0;
 		}
 
 		h1 {
-			font-size: 2.5rem;
-			margin-left: 3%;
+			font-size: 3rem;
+			margin-left: 10px;
 		}
 
-		header img {
-			width: 5rem;
-			margin-left: 3%;
+		img {
+			margin-left: 20px;
+			width: 96px;
+			height: 96px;
+		}
+	}
+
+	@media (max-width: 720px) {
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		img {
+			width: 64px;
+			height: 64px;
 		}
 	}
 
 	@media (max-width: 600px) {
 		h1 {
+			font-size: 2rem;
+		}
+
+		img {
+			width: 48px;
+			height: 48px;
+		}
+	}
+
+	@media (max-width: 520px) {
+		h1 {
 			font-size: 1.5rem;
 		}
 
-		header img {
-			width: 3rem;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		header {
+			padding: 5px 0;
+		}
+
+		h1 {
+			margin-left: 5px;
+			font-size: 1.2rem;
+		}
+
+		img {
+			margin-left: 10px;
+			width: 32px;
+			height: 32px;
 		}
 	}
 </style>
