@@ -26,7 +26,7 @@ export const FURSONAS: IFursona[] = [
 		image: { url: `${assets}/fursonas/kitsune.webp` }
 	},
 	{
-		name: 'Hirsuan Zoroark',
+		name: 'Hisuian Zoroark',
 		image: { url: `${assets}/fursonas/hirsuan_zoroark.webp` }
 	}
 ];
