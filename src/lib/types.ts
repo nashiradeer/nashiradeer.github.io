@@ -3,7 +3,7 @@ export interface IBadge {
 	image: string;
 }
 
-export interface IProject {
+export interface IItem {
 	id: string;
 	title: string;
 	image?: string;

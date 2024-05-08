@@ -1,5 +1,5 @@
 import { assets } from '$app/paths';
-import type { IProject } from '$lib/types';
+import type { IItem } from '$lib/types';
 import {
 	CPP,
 	CSHARP,
@@ -15,7 +15,7 @@ import {
 	UNITY,
 } from './badges';
 
-export const PROJECTS: IProject[] = [
+export const PROJECTS: IItem[] = [
 	{
 		id: 'nashira-website',
 		title: "Nashira's Website",
