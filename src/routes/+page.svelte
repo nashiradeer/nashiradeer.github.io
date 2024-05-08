@@ -6,6 +6,7 @@
 	import Contact from '$lib/content/contact.svelte';
 	import Fursonas from '$lib/content/fursonas.svelte';
 	import Projects from '$lib/content/projects.svelte';
+	import Certificates from '$lib/content/certificates.svelte';
 </script>
 
 <svelte:head>
@@ -43,6 +44,9 @@
 </HorizontalSection>
 <HorizontalSection title="Fursonas" color="#8400ff">
 	<Fursonas />
+</HorizontalSection>
+<HorizontalSection title="Certificates">
+	<Certificates />
 </HorizontalSection>
 <VerticalSection title="Projects" color="#fb0072">
 	<Projects />
