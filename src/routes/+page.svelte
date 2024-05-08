@@ -58,7 +58,7 @@
 	}
 
 	div {
-		height: 50vh;
+		height: 40vh;
 		display: flex;
 		align-items: center;
 	}
