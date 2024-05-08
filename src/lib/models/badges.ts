@@ -60,3 +60,8 @@ export const UNITY: IBadge = {
 	name: 'Unity',
 	image: `${assets}/langs/unity.svg`
 };
+
+export const PYTHON: IBadge = {
+	name: 'Python',
+	image: `${assets}/langs/python.svg`
+};
