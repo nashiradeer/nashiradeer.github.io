@@ -8,6 +8,7 @@ export interface IItem {
 	title: string;
 	image?: string;
 	link?: string;
+	link_text?: string;
 	description?: string;
 	badges: IBadge[];
 }
