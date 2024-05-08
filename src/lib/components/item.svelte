@@ -7,6 +7,7 @@
 	export let title: string;
 	export let image: string = `${assets}/placeholder.svg`;
 	export let link: string | undefined = undefined;
+	export let link_text: string = 'View project';
 	export let description: string | undefined = undefined;
 	export let badges: IBadge[] = [];
 
@@ -49,7 +50,7 @@
 					<p>{description}</p>
 				{/if}
 				{#if link}
-					<a href={link} target="_blank" rel="noopener noreferrer">View project</a>
+					<a href={link} target="_blank" rel="noopener noreferrer">{link_text}</a>
 				{/if}
 			</div>
 		{/if}
