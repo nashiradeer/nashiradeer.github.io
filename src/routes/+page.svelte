@@ -74,11 +74,13 @@
 		margin: 0 40px 0 auto;
 	}
 
-	@media (max-width: 1100px) {
+	@media (max-width: 1320px) {
 		div {
 			height: auto;
 		}
+	}
 
+	@media (max-width: 1100px) {
 		p {
 			max-width: 100%;
 			margin: 0 60px;
