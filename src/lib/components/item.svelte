@@ -10,10 +10,12 @@
 	export let link_text: string = 'View project';
 	export let description: string | undefined = undefined;
 	export let badges: IBadge[] = [];
+	export let oneLineDescription: boolean = false;
+	export let invertColors: boolean = false;
 
 	const titleSplit = title.split(' ');
 	let smallTitle = false;
-	if (titleSplit.length > 1 && titleSplit[0].length > 10) {
+	if (titleSplit.length > 1 && (titleSplit[0].length > 9 || titleSplit[1].length > 9)) {
 		smallTitle = true;
 	} else if (
 		titleSplit.length > 2 &&
@@ -24,12 +26,15 @@
 	} else if (titleSplit.length > 3) {
 		smallTitle = true;
 	}
+
+	let descriptionClass = oneLineDescription ? 'description one-line-description' : 'description multi-line-description';
+	let showcaseContentClass = invertColors ? 'showcase-content inverted' : 'showcase-content';
 </script>
 
 <div class="showcase-item">
 	<input {id} type="checkbox" />
 	<label for={id}>
-		<div class="showcase-content">
+		<div class={showcaseContentClass}>
 			<img width="270" height="200" src={image} alt={title} />
 			{#if smallTitle}
 				<span style="font-size: 1.3rem;">{title}</span>
@@ -45,7 +50,7 @@
 			{/if}
 		</div>
 		{#if description || link}
-			<div class="description">
+			<div class="{descriptionClass}">
 				{#if description}
 					<p>{description}</p>
 				{/if}
@@ -68,6 +73,10 @@
 		border-radius: 10px;
 	}
 
+	.inverted {
+		background-color: #d80061;
+	}
+
 	@keyframes blinking {
 		0% {
 			background-color: #000;
@@ -78,11 +87,27 @@
 		}
 	}
 
+	@keyframes blinking-inverted {
+		0% {
+			background-color: #d80061;
+		}
+
+		100% {
+			background-color: #ff5fa7;
+		}
+	}
+
 	.showcase-content:hover {
 		animation: blinking 1s;
 		animation-direction: alternate;
 		animation-iteration-count: infinite;
 		cursor: pointer;
+	}
+
+	.inverted:hover {
+		animation: blinking-inverted 1s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
 	}
 
 	label {
@@ -126,17 +151,27 @@
 		transition: height 0.5s ease-out;
 	}
 
-	input:checked + label .description {
+	input:checked + label .multi-line-description {
 		height: 150px;
+		transition: height 0.5s ease-in;
+	}
+
+	input:checked + label .one-line-description {
+		height: 100px;
 		transition: height 0.5s ease-in;
 	}
 
 	.description p {
 		margin: 20px 20px 0 20px;
-		height: 55px;
 		text-align: center;
+		height: 55px;
 		font-size: 0.8rem;
 		word-break: break-word;
+	}
+
+	.one-line-description p {
+		margin-top: 15px;
+		height: 20px;
 	}
 
 	.description a {
@@ -148,6 +183,11 @@
 		color: #fff;
 		text-decoration: none;
 		border-radius: 5px;
+	}
+
+	.one-line-description a {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	.description a:hover {
