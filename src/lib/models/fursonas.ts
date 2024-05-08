@@ -1,14 +1,5 @@
 import { assets } from '$app/paths';
-
-export interface IFursonaImage {
-	url: string;
-	height?: number;
-}
-
-export interface IFursona {
-	name: string;
-	image?: IFursonaImage;
-}
+import type { IFursona } from '$lib/types';
 
 export const FURSONAS: IFursona[] = [
 	{

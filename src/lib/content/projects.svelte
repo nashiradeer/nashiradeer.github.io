@@ -1,6 +1,6 @@
 <script>
-	import { PROJECTS } from './projects';
-	import ShowcaseItem from './showcase_item.svelte';
+	import { PROJECTS } from '../models/projects';
+	import ShowcaseItem from '../components/item.svelte';
 </script>
 
 <div>

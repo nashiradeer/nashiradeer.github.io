@@ -1,4 +1,5 @@
 import { assets } from '$app/paths';
+import type { IProject } from '$lib/types';
 import {
 	CPP,
 	CSHARP,
@@ -12,17 +13,7 @@ import {
 	SVELTE,
 	TYPESCRIPT,
 	UNITY,
-	type IBadge
 } from './badges';
-
-export interface IProject {
-	id: string;
-	title: string;
-	image?: string;
-	link?: string;
-	description?: string;
-	badges: IBadge[];
-}
 
 export const PROJECTS: IProject[] = [
 	{

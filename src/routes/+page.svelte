@@ -1,11 +1,11 @@
 <script>
-	import Header from '$lib/header.svelte';
-	import Contact from '$lib/contact.svelte';
-	import Fursonas from '$lib/fursona.svelte';
-	import Footer from '$lib/footer.svelte';
-	import Showcase from '$lib/showcase.svelte';
-	import SmallContent from '$lib/small_content.svelte';
-	import BigContent from '$lib/big_content.svelte';
+	import HorizontalSection from '$lib/components/sections/horizontal.svelte';
+	import VerticalSection from '$lib/components/sections/vertical.svelte';
+	import Header from '$lib/components/header.svelte';
+	import Footer from '$lib/components/footer.svelte';
+	import Contact from '$lib/content/contact.svelte';
+	import Fursonas from '$lib/content/fursonas.svelte';
+	import Projects from '$lib/content/projects.svelte';
 </script>
 
 <svelte:head>
@@ -26,10 +26,10 @@
 </svelte:head>
 
 <Header />
-<SmallContent title="Contact" color="#0059ff">
+<HorizontalSection title="Contact" color="#0059ff">
 	<Contact />
-</SmallContent>
-<SmallContent title="About Me">
+</HorizontalSection>
+<HorizontalSection title="About Me">
 	<div>
 		<p>
 			Hello, I'm Deyvid da Silva Costa (Brazilian, 19y, she/her), or Kitsu'ne on the internet. You
@@ -40,13 +40,13 @@
 			Rust, Elixir, Go, C, C#, and TypeScript.
 		</p>
 	</div>
-</SmallContent>
-<SmallContent title="Fursonas" color="#8400ff">
+</HorizontalSection>
+<HorizontalSection title="Fursonas" color="#8400ff">
 	<Fursonas />
-</SmallContent>
-<BigContent title="Projects" color="#fb0072">
-	<Showcase />
-</BigContent>
+</HorizontalSection>
+<VerticalSection title="Projects" color="#fb0072">
+	<Projects />
+</VerticalSection>
 <Footer />
 
 <style>

@@ -1,9 +1,5 @@
 import { assets } from '$app/paths';
-
-export interface IBadge {
-	name: string;
-	image: string;
-}
+import type { IBadge } from '$lib/types';
 
 export const CPP: IBadge = {
 	name: 'C++',

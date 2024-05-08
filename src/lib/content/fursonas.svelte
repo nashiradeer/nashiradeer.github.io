@@ -1,5 +1,5 @@
 <script>
-	import { FURSONAS } from './fursonas';
+	import { FURSONAS } from '../models/fursonas';
 </script>
 
 <div class="fursona">

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { assets } from '$app/paths';
+	import type { IBadge } from '$lib/types';
 	import Badge from './badge.svelte';
-	import type { IBadge } from './badges';
 
 	export let id: string;
 	export let title: string;
