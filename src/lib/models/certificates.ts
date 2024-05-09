@@ -9,6 +9,7 @@ export let CERTIFICATES: IItem[] = [
         description: "06/2022-09/2022 | 200 hours",
         link: `${assets}/certificates/system-programmer.pdf`,
         image: `${assets}/certificates/senac.svg`,
+        enableBorder: false,
         badges: [
             QT, PYTHON
         ]
@@ -19,6 +20,7 @@ export let CERTIFICATES: IItem[] = [
         description: "07/2021-10/2021 | 240 hours",
         link: `${assets}/certificates/game-developer.pdf`,
         image: `${assets}/certificates/senac.svg`,
+        enableBorder: false,
         badges: [
             UNITY, CSHARP
         ]
