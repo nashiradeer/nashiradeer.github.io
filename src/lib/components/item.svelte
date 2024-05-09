@@ -12,6 +12,7 @@
 	export let badges: IBadge[] = [];
 	export let oneLineDescription: boolean = false;
 	export let invertColors: boolean = false;
+	export let enableBorder: boolean = true;
 
 	const titleSplit = title.split(' ');
 	let smallTitle = false;
@@ -29,13 +30,14 @@
 
 	let descriptionClass = oneLineDescription ? 'description one-line-description' : 'description multi-line-description';
 	let showcaseContentClass = invertColors ? 'showcase-content inverted' : 'showcase-content';
+	let borderClass = enableBorder ? 'border' : '';
 </script>
 
 <div class="showcase-item">
 	<input {id} type="checkbox" />
 	<label for={id}>
 		<div class={showcaseContentClass}>
-			<img width="270" height="200" src={image} alt={title} />
+			<img width="270" height="200" src={image} alt={title} class={borderClass} />
 			{#if smallTitle}
 				<span style="font-size: 1.3rem;">{title}</span>
 			{:else}
@@ -128,6 +130,9 @@
 		display: block;
 		margin: 0;
 		border-radius: 10px;
+	}
+
+	.border {
 		border: #fff solid 2px;
 	}
 

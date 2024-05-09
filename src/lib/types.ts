@@ -10,6 +10,7 @@ export interface IItem {
 	link?: string;
 	link_text?: string;
 	description?: string;
+	enableBorder?: boolean;
 	badges: IBadge[];
 }
 
