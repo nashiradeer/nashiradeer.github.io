@@ -10,15 +10,15 @@
 </script>
 
 <svelte:head>
-	<title>Nashira Deer</title>
+	<title>Nashira Deer // Kitsu'ne</title>
 	<meta
 		name="description"
-		content="Nashira Deer's personal website containing contact information, about me, fursonas, and projects."
+		content="Nashira Deer's personal website containing contact information, about me, fursonas, certificates, and projects."
 	/>
 	<meta property="og:title" content="Nashira Deer" />
 	<meta
 		property="og:description"
-		content="My personal website containing contact information, about me, fursonas, and projects."
+		content="My personal website containing contact information, about me, fursonas, certificates, and projects."
 	/>
 	<meta property="og:url" content="https://www.nashiradeer.com/" />
 	<meta property="og:image" content="https://www.nashiradeer.com/protogen.png" />
