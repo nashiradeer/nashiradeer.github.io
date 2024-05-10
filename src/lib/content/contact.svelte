@@ -1,30 +1,30 @@
 <ul>
 	<li>
-		<a href="mailto:nashiradeer@gmail.com">
+		<a href="mailto:nashiradeer@gmail.com" target="_blank">
 			<span class="material-symbols-rounded">mail</span>
 			<span class="name">nashiradeer@gmail.com</span>
 		</a>
 	</li>
 	<li>
-		<a href="https://github.com/nashiradeer">
+		<a href="https://github.com/nashiradeer" target="_blank">
 			<img src="https://cdn.simpleicons.org/github/white" width="27" height="27" alt="github" />
 			<span class="name">github.com/nashiradeer</span>
 		</a>
 	</li>
 	<li>
-		<a href="https://youtube.com/nashiradeer">
+		<a href="https://youtube.com/nashiradeer" target="_blank">
 			<img src="https://cdn.simpleicons.org/youtube/white" width="27" height="27" alt="youtube" />
 			<span class="name">youtube.com/nashiradeer</span>
 		</a>
 	</li>
 	<li>
-		<a href="https://twitter.com/nashiradeer">
+		<a href="https://twitter.com/nashiradeer" target="_blank">
 			<img src="https://cdn.simpleicons.org/twitter/white" width="27" height="27" alt="twitter" />
 			<span class="name">twitter.com/nashiradeer</span>
 		</a>
 	</li>
 	<li>
-		<a href="https://bsky.app/profile/nashiradeer.com">
+		<a href="https://bsky.app/profile/nashiradeer.com" target="_blank">
 			<img src="https://cdn.simpleicons.org/bluesky/white" width="27" height="27" alt="bluesky" />
 			<span class="name">bsky.app/nashiradeer.com</span>
 		</a>
