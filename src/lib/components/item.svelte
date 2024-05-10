@@ -13,31 +13,14 @@
 	export let oneLineDescription: boolean = false;
 	export let invertColors: boolean = false;
 	export let enableBorder: boolean = true;
-
-	const titleSplit = title.split(' ');
-	let smallTitle = false;
-	if (titleSplit.length > 1 && (titleSplit[0].length > 9 || titleSplit[1].length > 9)) {
-		smallTitle = true;
-	} else if (
-		titleSplit.length > 2 &&
-		titleSplit[0].length + titleSplit[1].length > 7 &&
-		titleSplit[2].length > 6
-	) {
-		smallTitle = true;
-	} else if (titleSplit.length > 3) {
-		smallTitle = true;
-	}
-
-	let descriptionClass = oneLineDescription ? 'description one-line-description' : 'description multi-line-description';
-	let showcaseContentClass = invertColors ? 'showcase-content inverted' : 'showcase-content';
-	let borderClass = enableBorder ? 'border' : '';
+	export let smallTitle: boolean = false;
 </script>
 
 <div class="showcase-item">
 	<input {id} type="checkbox" />
 	<label for={id}>
-		<div class={showcaseContentClass}>
-			<img width="270" height="200" src={image} alt={title} class={borderClass} />
+		<div class={invertColors ? 'showcase-content inverted' : 'showcase-content'}>
+			<img width="270" height="200" src={image} alt={title} class={enableBorder ? 'border' : ''} />
 			{#if smallTitle}
 				<span style="font-size: 1.3rem;">{title}</span>
 			{:else}
@@ -52,7 +35,7 @@
 			{/if}
 		</div>
 		{#if description || link}
-			<div class="{descriptionClass}">
+			<div class="{oneLineDescription ? 'description one-line-description' : 'description multi-line-description'}">
 				{#if description}
 					<p>{description}</p>
 				{/if}
