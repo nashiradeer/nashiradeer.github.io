@@ -11,6 +11,7 @@ export interface IItem {
 	link_text?: string;
 	description?: string;
 	enableBorder?: boolean;
+	smallTitle?: boolean;
 	badges: IBadge[];
 }
 
