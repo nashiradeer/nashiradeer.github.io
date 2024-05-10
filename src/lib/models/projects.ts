@@ -59,6 +59,7 @@ export const PROJECTS: IItem[] = [
 		description:
 			"A game about a maintenance tool that doesn't want to work. Created to the Global Game Jam 2024.",
 		link: 'https://github.com/nashiradeer/ggj24-game',
+		smallTitle: true,
 		badges: [RUST]
 	},
 	{
@@ -77,6 +78,7 @@ export const PROJECTS: IItem[] = [
 			'A game about the culture of Bahia, Brazil. Created to conclude the Game Development course at Senac Bahia.',
 		link: 'https://gamejolt.com/games/thelegendofbaiana/653596',
 		image: `${assets}/projects/the-legend-of-baiana.webp`,
+		smallTitle: true,
 		badges: [UNITY, CSHARP]
 	},
 	{
@@ -126,6 +128,7 @@ export const PROJECTS: IItem[] = [
 		title: 'Sexy Name Calculator',
 		description: 'A calculator that tells you how sexy your name is based on a meme image.',
 		link: 'https://github.com/nashiradeer/sexy-name-calculator',
+		smallTitle: true,
 		badges: [HTML]
 	}
 ];

@@ -10,6 +10,7 @@ export let CERTIFICATES: IItem[] = [
         link: `${assets}/certificates/system-programmer.pdf`,
         image: `${assets}/certificates/senac.svg`,
         enableBorder: false,
+        smallTitle: true,
         badges: [
             QT, PYTHON
         ]
