@@ -63,4 +63,16 @@
         background-color: #333;
         color: #fff;
     }
+
+    @media (max-width: 1100px) {
+        .consent-show {
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+        button {
+            padding: 8px 16px;
+            font-size: 1rem;
+        }
+    }
 </style>
