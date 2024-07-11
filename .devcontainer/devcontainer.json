@@ -14,7 +14,11 @@
 	"remoteUser": "vscode",
 	"customizations": {
 		"vscode": {
-			"extensions": []
+			"extensions": [
+				"svelte.svelte-vscode",
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint"
+			]
 		}
 	},
 	"forwardPorts": [3000]
