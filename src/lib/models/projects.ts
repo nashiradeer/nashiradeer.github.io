@@ -12,7 +12,7 @@ import {
 	RUST,
 	SVELTE,
 	TYPESCRIPT,
-	UNITY,
+	UNITY
 } from './badges';
 
 export const PROJECTS: IItem[] = [

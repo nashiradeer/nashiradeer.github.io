@@ -35,7 +35,11 @@
 			{/if}
 		</div>
 		{#if description || link}
-			<div class="{oneLineDescription ? 'description one-line-description' : 'description multi-line-description'}">
+			<div
+				class={oneLineDescription
+					? 'description one-line-description'
+					: 'description multi-line-description'}
+			>
 				{#if description}
 					<p>{description}</p>
 				{/if}
