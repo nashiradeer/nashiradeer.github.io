@@ -11,9 +11,11 @@ export default {
 			}
 		},
 		colors: {
-			sirius: '#0059ff',
-			sinabar: '#fb0072',
-			purrple: '#8400ff',
+			sirius: '#4078f4',
+			'sirius-purple': '#d062ff',
+			'sirius-pink': '#ffa5e5',
+			sinabar: '#ff0170',
+			'sinabar-pink': '#feabc8',
 			...colors
 		}
 	},
