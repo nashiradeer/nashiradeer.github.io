@@ -1,8 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store';
-
-	let darkMode = writable(true);
 
 	function isDarkMode() {
 		return (
@@ -15,11 +12,9 @@
 		if (isDarkMode()) {
 			document.documentElement.classList.add('dark');
 			document.documentElement.classList.remove('light');
-			darkMode.set(true);
 		} else {
 			document.documentElement.classList.remove('dark');
 			document.documentElement.classList.add('light');
-			darkMode.set(false);
 		}
 	});
 
@@ -28,12 +23,10 @@
 			localStorage.theme = 'light';
 			document.documentElement.classList.remove('dark');
 			document.documentElement.classList.add('light');
-			darkMode.set(false);
 		} else {
 			localStorage.theme = 'dark';
 			document.documentElement.classList.add('dark');
 			document.documentElement.classList.remove('light');
-			darkMode.set(true);
 		}
 	}
 </script>
