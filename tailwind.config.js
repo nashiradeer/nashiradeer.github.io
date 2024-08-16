@@ -1,5 +1,4 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
-import colors from 'tailwindcss/colors';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,15 +7,14 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['"Secular One"', ...defaultTheme.fontFamily.sans]
+			},
+			colors: {
+				sirius: '#4078f4',
+				'sirius-purple': '#d062ff',
+				'sirius-pink': '#ffa5e5',
+				sinabar: '#ff0170',
+				'sinabar-pink': '#feabc8'
 			}
-		},
-		colors: {
-			sirius: '#4078f4',
-			'sirius-purple': '#d062ff',
-			'sirius-pink': '#ffa5e5',
-			sinabar: '#ff0170',
-			'sinabar-pink': '#feabc8',
-			...colors
 		}
 	},
 	darkMode: [
