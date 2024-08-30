@@ -1,6 +1,10 @@
 import type { Language } from '../../types';
 
 const lang: Language = {
+	Metadata: {
+		Name: 'Português',
+		Code: 'pt'
+	},
 	Home: {
 		HeadTitle: 'Nashira Deer - Início',
 		HeadDescription:
