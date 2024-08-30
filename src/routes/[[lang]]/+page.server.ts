@@ -1,5 +1,5 @@
-import { LANGUAGES } from '$lib/i18n/languages';
+import { loadLanguages } from '$lib/i18n/languages';
 
-export function entries() {
-	return Object.values(LANGUAGES).map((lang) => ({ lang: lang }));
+export async function entries() {
+	return Object.keys(await loadLanguages()).map((lang) => ({ lang: lang }));
 }

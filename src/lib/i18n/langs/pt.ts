@@ -1,25 +1,25 @@
 import type { Language } from '../../types';
 
 const lang: Language = {
-	Metadata: {
-		Name: 'Português',
-		Code: 'pt'
+	metadata: {
+		name: 'Português',
+		code: 'pt'
 	},
-	Home: {
-		HeadTitle: 'Nashira Deer - Início',
-		HeadDescription:
-			'Site pessoal de Nashira Deer contendo informações de contato, sobre mim, fursonas, certificados e projetos.',
-		OgTitle: 'Nashira Deer - Início',
-		OgDescription:
-			'Meu site pessoal contendo informações de contato, sobre mim, fursonas, certificados e projetos.',
-		OgImageAlt: 'Sinabar, um furry da espécie Protogen.',
-		LogoAlt: 'Sinabar, um furry da espécie Protogen.',
-		About: 'Sobre',
-		Blog: 'Blog',
-		Fursonas: 'Fursonas',
-		Certificates: 'Certificados',
-		Projects: 'Projetos',
-		Contact: 'Contato'
+	openGraph: {
+		home: 'Nashira Deer',
+		homeDescription:
+			'Meu site pessoal contendo meus contatos, fursonas, certificados e projetos, além de um blog e um pouco da minha jornada.',
+		imageAlt: 'Sinabar, o protogen.'
+	},
+	home: {
+		title: 'Nashira Deer',
+		description:
+			'Site pessoal de Nashira Deer contendo informações de contato, seus fursonas, certificados e projetos, além de um blog e um pouco sobre sua jornada.',
+		logoAlt: 'Sinabar, o protogen.',
+		blog: 'Blog',
+		fursonas: 'Fursonas',
+		certificates: 'Certificados',
+		projects: 'Projetos'
 	}
 };
 
