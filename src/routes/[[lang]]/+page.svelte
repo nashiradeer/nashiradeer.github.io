@@ -44,16 +44,19 @@
 	<div class="m-auto">
 		<header class="flex flex-row items-center justify-center">
 			<img
-				width="200"
-				height="200"
+				width="160"
+				height="160"
 				src="logo/protogen.svg"
 				alt={data.language['Home']['LogoAlt']}
+				class="lg:w-40 lg:h-40 sm:w-20 sm:h-20 h-16 w-16"
 			/>
-			<h1 class="dark:text-white text-black text-9xl">
+			<h1 class="dark:text-white text-black lg:text-9xl sm:text-6xl text-4xl">
 				<span class="text-sinabar">Nashira</span> <span>Deer</span>
 			</h1>
 		</header>
-		<ul class="flex flex-row gap-x-2 justify-center mt-4 *:home-button">
+		<ul
+			class="flex lg:flex-row flex-col lg:gap-x-2 lg:gap-y-0 gap-y-2 justify-center mt-4 *:home-button"
+		>
 			<li><I18nLink {data} href="/about" category="Home" key="About" /></li>
 			<li><I18nLink {data} href="/blog" category="Home" key="Blog" /></li>
 			<li><I18nLink {data} href="/fursonas" category="Home" key="Fursonas" /></li>
