@@ -6,4 +6,8 @@
 	.home-button {
 		@apply *:bg-sirius *:hover:bg-sirius-purple *:transition *:duration-300 *:px-5 *:py-2 *:text-xl *:rounded-md *:block text-white *:text-center;
 	}
+
+	.home-icon-button {
+		@apply *:transition *:duration-300 *:p-2 *:text-xl *:rounded-lg *:block *:text-center *:border;
+	}
 }
