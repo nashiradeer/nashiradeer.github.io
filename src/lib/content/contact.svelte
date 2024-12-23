@@ -18,12 +18,6 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://twitter.com/nashiradeer" target="_blank">
-			<img src="https://cdn.simpleicons.org/twitter/white" width="27" height="27" alt="twitter" />
-			<span class="name">twitter.com/nashiradeer</span>
-		</a>
-	</li>
-	<li>
 		<a href="https://bsky.app/profile/nashiradeer.com" target="_blank">
 			<img src="https://cdn.simpleicons.org/bluesky/white" width="27" height="27" alt="bluesky" />
 			<span class="name">bsky.app/nashiradeer.com</span>
