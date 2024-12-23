@@ -6,7 +6,7 @@ export let CERTIFICATES: IItem[] = [
 	{
 		id: 'aws',
 		title: 'Amazon Web Services',
-		description: '08/2024 | 37 hours',
+		description: '10/2024 | 37 hours',
 		link: `${assets}/certificates/aws.pdf`,
 		image: `${assets}/certificates/udemy.svg`,
 		enableBorder: false,
