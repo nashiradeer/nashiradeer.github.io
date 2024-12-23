@@ -65,3 +65,18 @@ export const PYTHON: IBadge = {
 	name: 'Python',
 	image: `${assets}/langs/python.svg`
 };
+
+export const ELIXIR: IBadge = {
+	name: 'Elixir',
+	image: `${assets}/langs/elixir.svg`
+};
+
+export const PHOENIX: IBadge = {
+	name: 'Phoenix',
+	image: `${assets}/langs/phoenix.svg`
+};
+
+export const AWS: IBadge = {
+	name: 'AWS',
+	image: `${assets}/langs/aws.svg`
+};
