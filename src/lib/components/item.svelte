@@ -20,7 +20,14 @@
 	<input {id} type="checkbox" />
 	<label for={id}>
 		<div class={invertColors ? 'showcase-content inverted' : 'showcase-content'}>
-			<img width="270" height="200" src={image} alt={title} class={enableBorder ? 'border' : ''} />
+			<img
+				loading="lazy"
+				width="270"
+				height="200"
+				src={image}
+				alt={title}
+				class={enableBorder ? 'border' : ''}
+			/>
 			{#if smallTitle}
 				<span style="font-size: 1.3rem;">{title}</span>
 			{:else}
@@ -35,7 +42,11 @@
 			{/if}
 		</div>
 		{#if description || link}
-			<div class="{oneLineDescription ? 'description one-line-description' : 'description multi-line-description'}">
+			<div
+				class={oneLineDescription
+					? 'description one-line-description'
+					: 'description multi-line-description'}
+			>
 				{#if description}
 					<p>{description}</p>
 				{/if}

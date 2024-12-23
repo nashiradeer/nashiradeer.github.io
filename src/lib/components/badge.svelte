@@ -14,7 +14,7 @@
 
 <div class={badgeClass}>
 	{#if image}
-		<img width="20" height="20" src={image} alt="Badge" />
+		<img loading="lazy" width="20" height="20" src={image} alt="Badge" />
 	{/if}
 	{#if name}
 		<span>{name}</span>
