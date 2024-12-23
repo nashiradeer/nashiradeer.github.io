@@ -53,9 +53,18 @@
 <Footer />
 
 <style>
+	@font-face {
+		font-family: 'Adjusted Arial Fallback';
+		src: local(Arial);
+		size-adjust: 85%;
+		ascent-override: normal;
+		descent-override: normal;
+		line-gap-override: 26%;
+	}
+
 	:global(body) {
 		margin: 0;
-		font-family: 'Secular One', sans-serif;
+		font-family: 'Secular One', 'Adjusted Arial Fallback';
 		background-color: #000;
 		color: #fff;
 	}
