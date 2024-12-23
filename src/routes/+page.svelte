@@ -33,12 +33,11 @@
 <HorizontalSection title="About Me">
 	<div>
 		<p>
-			Hello, I'm Deyvid da Silva Costa (Brazilian, 19y, she/her), or Kitsu'ne on the internet. You
-			can find me using the name of Nashira Deer, but it's a "legacy" name. I prefer Kitsu'ne to my
-			real name or Nashira. I'm a software developer who loves to code back-ends, games, or
-			system-related things, using Rust or C# with Unity in these projects, but I also code
-			front-end in TypeScript and mobile/desktop in Flutter. My favorite programming languages are
-			Rust, Elixir, Go, C, C#, and TypeScript.
+			Hello, I'm Deyvid da Silva Costa (Brazilian, 19y, any pronoun). You can find me using the name
+			of Nashira Deer. I'm a software developer who loves to code back-ends, games, or
+			system-related things, using Elixir, Rust, Dart with Flutter, TypeScript with React or Svelte,
+			or C# with Unity in these projects, but I also code front-end in TypeScript and mobile/desktop
+			in Flutter. My favorite programming languages are Elixir, Rust, Go.
 		</p>
 	</div>
 </HorizontalSection>
@@ -72,11 +71,14 @@
 		max-width: 70%;
 		vertical-align: middle;
 		margin: 0 40px 0 auto;
+		text-align: center;
+		padding-right: 40px;
 	}
 
 	@media (max-width: 1320px) {
 		div {
 			height: auto;
+			padding-right: 0;
 		}
 	}
 
@@ -84,7 +86,6 @@
 		p {
 			max-width: 100%;
 			margin: 0 60px;
-			text-align: center;
 		}
 	}
 
