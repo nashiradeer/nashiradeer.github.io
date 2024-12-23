@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="128" height="128" version="1.1" viewBox="0 0 12.8 12.8" xmlns="http://www.w3.org/2000/svg">
- <g transform="matrix(.33684 0 0 .33684 -1.6842 -1.6842)">
-  <path d="m41 5h-34l3 34 14 4 14-4z" fill="#e65100"/>
-  <path d="m24 8v31.9l11.2-3.2 2.5-28.7z" fill="#ff6d00"/>
-  <path d="m24 25v-4h8.6l-0.7 11.5-7.9 2.6v-4.2l4.1-1.4 0.3-4.5zm8.9-8 0.3-4h-9.2v4z" fill="#fff"/>
-  <path d="m24 30.9v4.2l-7.9-2.6-0.4-5.5h4l0.2 2.5zm-4.9-13.9h4.9v-4h-9.1l0.7 12h8.4v-4h-4.6z" fill="#eee"/>
- </g>
-</svg>
+<svg width="128" height="128" version="1.1" viewBox="0 0 12.8 12.8" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.33684 0 0 .33684 -1.6842 -1.6842)"><path d="m41 5h-34l3 34 14 4 14-4z" fill="#e65100"/><path d="m24 8v31.9l11.2-3.2 2.5-28.7z" fill="#ff6d00"/><path d="m24 25v-4h8.6l-.7 11.5-7.9 2.6v-4.2l4.1-1.4.3-4.5zm8.9-8 .3-4h-9.2v4z" fill="#fff"/><path d="m24 30.9v4.2l-7.9-2.6-.4-5.5h4l.2 2.5zm-4.9-13.9h4.9v-4h-9.1l.7 12h8.4v-4h-4.6z" fill="#eee"/></g></svg>
