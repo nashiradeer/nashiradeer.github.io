@@ -15,15 +15,22 @@ export const FURSONAS: IFursona[] = [
 		}
 	},
 	{
+		name: "Kitsu'ne",
+		image: { url: `${assets}/fursonas/kitsune.webp` }
+	},
+	{
+		name: 'Aiyra Ysmir',
+		image: {
+			url: `${assets}/fursonas/aiyra.webp`,
+			height: 219
+		}
+	},
+	{
 		name: 'Hellion Warden',
 		image: {
 			url: `${assets}/fursonas/hellion.webp`,
 			height: 233
 		}
-	},
-	{
-		name: "Kitsu'ne",
-		image: { url: `${assets}/fursonas/kitsune.webp` }
 	},
 	{
 		name: 'Hisuian Zoroark',
