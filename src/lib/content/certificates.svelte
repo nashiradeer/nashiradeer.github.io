@@ -31,16 +31,6 @@
 		gap: 20px;
 	}
 
-	@media (max-width: 1150px) {
-		.certificates-wrapper {
-			height: auto;
-		}
-
-		.certificates-content {
-			height: auto;
-		}
-	}
-
 	@media (max-width: 1100px) {
 		.certificates-wrapper {
 			padding-right: 0;
