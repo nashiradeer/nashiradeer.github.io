@@ -1,10 +1,11 @@
-export interface PageLoad {
-	languageData: LanguageData;
+/** Metadata for a language */
+export interface LanguageMetadata {
+	/** The name of the language */
+	name: string;
+	/** The code of the language */
+	code: string;
 }
 
-export interface LanguageData {
-	current: Language;
-	available: Record<string, string>;
-}
-
-export type Language = Record<string, Record<string, string>>;
+/** A language file */
+export type Language = Record<'metadata', LanguageMetadata> &
+	Record<string, Record<string, string>>;
