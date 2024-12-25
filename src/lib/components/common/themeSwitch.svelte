@@ -34,4 +34,5 @@
 <button
 	on:click={switchTheme}
 	class="size-8 bg-[url('/icons/light-mode.svg')] hover:bg-[url('/icons/light-mode-hover.svg')] dark:bg-[url('/icons/dark-mode.svg')] dark:hover:bg-[url('/icons/dark-mode-hover.svg')] bg-no-repeat bg-center bg-contain transition-all"
-/>
+	aria-label="Toggle theme"
+></button>
