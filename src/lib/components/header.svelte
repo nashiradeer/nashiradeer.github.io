@@ -2,6 +2,8 @@
 	import { localizeUrl, t } from '$lib/i18n';
 	import { twMerge } from 'tailwind-merge';
 	import Button from './ui/button.svelte';
+	import { mount, onMount } from 'svelte';
+	import HeaderSidebar from './header-sidebar.svelte';
 
 	interface HeaderProps {
 		selected?: 'blog' | 'games' | 'projects' | 'certificates' | 'fursonas';
@@ -14,6 +16,13 @@
 	function toggleSidebar() {
 		sidebar = !sidebar;
 	}
+
+	onMount(() => {
+		mount(HeaderSidebar, {
+			props: { onclick: toggleSidebar },
+			target: document.querySelector('header')!
+		});
+	});
 </script>
 
 <div class="flex lg:flex-row flex-col items-center justify-around sm:my-5">
@@ -30,12 +39,6 @@
 				<span class="text-sinabar">Nashira</span> <span>Deer</span>
 			</h1>
 		</a>
-		<button
-			onclick={toggleSidebar}
-			class="sm:mr-1 mr-0.5 px-1 flex flex-row items-center sm:hidden"
-		>
-			<img src="/icons/menu.svg" alt={t('header', 'menu')} class="h-8 w-8" />
-		</button>
 	</header>
 	<nav
 		class={twMerge(
