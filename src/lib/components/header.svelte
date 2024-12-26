@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { localizeUrl, t } from '$lib/i18n';
 	import { twMerge } from 'tailwind-merge';
-	import Button from './ui/button.svelte';
+	import Button from './button.svelte';
 	import { mount, onMount } from 'svelte';
 	import HeaderSidebar from './header-sidebar.svelte';
 

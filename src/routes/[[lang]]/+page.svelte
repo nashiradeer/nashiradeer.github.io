@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Config from '$lib/components/config.svelte';
-	import Button from '$lib/components/ui/button.svelte';
+	import Button from '$lib/components/button.svelte';
 	import { generateAlternateLinks, localizeUrl, t } from '$lib/i18n';
 </script>
 

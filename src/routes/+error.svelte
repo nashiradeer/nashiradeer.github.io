@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import ThemeSwitch from '$lib/components/theme-switch.svelte';
-	import Button from '$lib/components/ui/button.svelte';
+	import Button from '$lib/components/button.svelte';
 	import { I18N_KEY } from '$lib/i18n';
 	import en from '$lib/i18n/languages/en';
 	import { mount, onMount, setContext } from 'svelte';
