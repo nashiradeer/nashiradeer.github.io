@@ -8,7 +8,7 @@ const lang: Language = {
 	openGraph: {
 		home: 'Nashira Deer',
 		homeDescription:
-			'My personal website containing my contacts, fursonas, certificates and projects, as well as a blog and a little about my journey.',
+			'My personal website features her contact information, fursonas, certificates, projects, and a blog.',
 		imageAlt: 'Sinabar, the protogen.'
 	},
 	config: {
@@ -18,7 +18,7 @@ const lang: Language = {
 	home: {
 		title: 'Nashira Deer',
 		description:
-			"Nashira Deer's personal website containing contact information, her fursonas, certificates and projects, as well as a blog and a little about her journey.",
+			"Nashira Deer's personal website features her contact information, fursonas, certificates, projects, and a blog.",
 		logoAlt: 'Sinabar, the protogen.',
 		blog: 'Blog',
 		fursonas: 'Fursonas',
