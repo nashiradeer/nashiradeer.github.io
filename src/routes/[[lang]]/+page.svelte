@@ -25,7 +25,7 @@
 			width="160"
 			height="160"
 			src="logo/protogen.svg"
-			alt={t('home', 'logoAlt')}
+			alt={t('header', 'logoAlt')}
 			class="lg:w-40 lg:h-40 sm:w-32 sm:h-32 h-16 w-16"
 		/>
 		<h1 class="dark:text-white text-black lg:text-8xl sm:text-6xl text-4xl">
@@ -39,27 +39,27 @@
 	>
 		<li class="max-sm:w-[284px]">
 			<Button href={localizeUrl('/blog')} class="text-white text-center text-lg px-3">
-				{t('home', 'blog')}
+				{t('header', 'blog')}
 			</Button>
 		</li>
 		<li class="max-sm:w-[284px]">
 			<Button href={localizeUrl('/games')} class="text-white text-center text-lg px-3">
-				{t('home', 'games')}
+				{t('header', 'games')}
 			</Button>
 		</li>
 		<li class="max-sm:w-[284px]">
 			<Button href={localizeUrl('/projects')} class="text-white text-center text-lg px-3">
-				{t('home', 'projects')}
+				{t('header', 'projects')}
 			</Button>
 		</li>
 		<li class="max-sm:w-[284px]">
 			<Button href={localizeUrl('/certificates')} class="text-white text-center text-lg px-3">
-				{t('home', 'certificates')}
+				{t('header', 'certificates')}
 			</Button>
 		</li>
 		<li class="max-sm:w-[284px]">
 			<Button href={localizeUrl('/fursonas')} class="text-white text-center text-lg px-3">
-				{t('home', 'fursonas')}
+				{t('header', 'fursonas')}
 			</Button>
 		</li>
 	</ul>
