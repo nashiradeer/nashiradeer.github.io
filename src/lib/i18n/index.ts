@@ -1,6 +1,14 @@
 import type { Language } from '$lib/types';
 import { getContext } from 'svelte';
-import { AVAILABLE_LANGUAGES, DEFAULT_LANGUAGE } from './languages';
+
+/** Available languages */
+export const AVAILABLE_LANGUAGES: Record<string, string> = {
+	en: 'English',
+	pt: 'Português'
+};
+
+/** Default language */
+export const DEFAULT_LANGUAGE = 'en';
 
 /** Context key for the current language */
 export const I18N_KEY = Symbol('i18n');

@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { getLanguage, t } from '$lib/i18n';
-	import { AVAILABLE_LANGUAGES, DEFAULT_LANGUAGE } from '$lib/i18n/languages';
+	import { AVAILABLE_LANGUAGES, DEFAULT_LANGUAGE, getLanguage, t } from '$lib/i18n';
 	import { twMerge } from 'tailwind-merge';
 
 	interface LanguageSwitchProps {

@@ -1,4 +1,4 @@
-import { AVAILABLE_LANGUAGES } from '$lib/i18n/languages';
+import { AVAILABLE_LANGUAGES } from '$lib/i18n';
 import type { EntryGenerator } from './$types';
 
 export const entries: EntryGenerator = () => {
