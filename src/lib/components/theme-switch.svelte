@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '$lib/i18n';
 	import { onMount } from 'svelte';
 
 	function isDarkMode() {
@@ -34,5 +35,5 @@
 <button
 	onclick={switchTheme}
 	class="size-8 bg-[url('/icons/light-mode.svg')] hover:bg-[url('/icons/light-mode-hover.svg')] dark:bg-[url('/icons/dark-mode.svg')] dark:hover:bg-[url('/icons/dark-mode-hover.svg')] bg-no-repeat bg-center bg-contain transition-all"
-	aria-label="Toggle theme"
+	aria-label={t('config', 'toggleTheme')}
 ></button>

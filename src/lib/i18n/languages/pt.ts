@@ -11,6 +11,10 @@ const lang: Language = {
 			'Meu site pessoal contendo meus contatos, fursonas, certificados e projetos, além de um blog e um pouco da minha jornada.',
 		imageAlt: 'Sinabar, o protogen.'
 	},
+	config: {
+		toggleTheme: 'Alternar tema',
+		changeLanguage: 'Mudar idioma'
+	},
 	home: {
 		title: 'Nashira Deer',
 		description:
@@ -20,10 +24,7 @@ const lang: Language = {
 		fursonas: 'Fursonas',
 		certificates: 'Certificados',
 		projects: 'Projetos',
-		about: `Olá! Meu nome é Deyvid da Silva Costa, mas você também pode me chamar de Nashira Deer ou Kitsu'ne. Eu
-amo programar e fazer quase qualquer coisa, ainda mais em Rust, Elixir, Go e Typescript. Atualmente,
-minha stack é Elixir e Go para o back end, Svelte e React para o front end, Flutter para
-mobile, e Rust para qualquer outra coisa.`
+		games: 'Jogos'
 	}
 };
 
