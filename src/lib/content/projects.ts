@@ -10,9 +10,10 @@ export const PROJECTS: IShowcaseProject[] = [
 	{
 		title: "Nashira's Website",
 		descriptionKey: 'nashiraDeerDescription',
-		url: 'https://nashiradeer.com',
+		url: '/',
 		image: '/images/placeholder.svg',
-		activeProject: true
+		activeProject: true,
+		localizeUrl: true
 	},
 	{
 		title: 'Hydrogen Bot',

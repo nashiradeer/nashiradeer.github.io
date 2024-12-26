@@ -20,6 +20,8 @@ export interface IShowcaseItem {
 	image: string;
 	/** The URL of the item */
 	url: string;
+	/** Whether the URL should be localized */
+	localizeUrl?: boolean;
 	/** Whether the URL should be opened in a new tab */
 	newTab?: boolean;
 }

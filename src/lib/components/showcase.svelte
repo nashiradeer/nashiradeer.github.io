@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { t } from '$lib/i18n';
+	import { localizeUrl, t } from '$lib/i18n';
 	import type { IShowcaseItem } from '$lib/types';
 	import ShowcaseItem from './showcase-item.svelte';
 
@@ -17,7 +17,7 @@
 			title={item.title}
 			description={t(props.categoryKey, item.descriptionKey)}
 			image={item.image}
-			href={item.url}
+			href={item.localizeUrl ? localizeUrl(item.url) : item.url}
 			target={item.newTab ? '_blank' : undefined}
 		/>
 	{/each}
