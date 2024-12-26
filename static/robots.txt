@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /download
+Disallow: /icons
+Disallow: /_app
+
 
 Sitemap: https://www.nashiradeer.com/sitemap.xml
