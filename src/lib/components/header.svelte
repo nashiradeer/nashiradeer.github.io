@@ -42,8 +42,8 @@
 	</header>
 	<nav
 		class={twMerge(
-			'max-h-0 sm:max-h-full max-sm:w-full overflow-hidden',
-			sidebar ? 'max-h-[600px]' : undefined
+			'max-h-0 sm:max-h-full max-sm:w-full overflow-hidden transition-all duration-500',
+			sidebar ? 'max-h-[250px]' : undefined
 		)}
 	>
 		<ul
