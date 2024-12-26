@@ -1,5 +1,8 @@
 <script lang="ts">
+	import Config from '$lib/components/config.svelte';
 	import Header from '$lib/components/header.svelte';
+	import Showcase from '$lib/components/showcase.svelte';
+	import { GAMES } from '$lib/content/games';
 	import { generateAlternateLinks, localizeUrl, t } from '$lib/i18n';
 </script>
 
@@ -17,3 +20,5 @@
 </svelte:head>
 
 <Header selected="games" />
+<h2 class="text-center text-4xl font-bold my-2">{t('games', 'developedGames')}</h2>
+<Showcase categoryKey="games" items={GAMES.filter((v) => !v.onlyPublished)} />
